@@ -33,11 +33,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits(e) é um app para ajudar a rastrear os hábitos.
 
-<<<<<<< HEAD
 - [Visite o projeto online](https://jjfaleiro.github.io/Habits-e/)
-=======
--[Visite o projeto online] (https://jjfaleiro.github.io/Habits-e/)
->>>>>>> 2a2fa7dd44bf2334850fdac78faef230667df3a8
+
 
 ## 🔖 Layout
 
