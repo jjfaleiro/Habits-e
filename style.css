@@ -1,0 +1,149 @@
+/* Bizu Notion ``` para adcionar códigos de programação */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #09090a;
+
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 2rem;
+
+  height: 100vh;
+
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.8rem;
+
+  position: fixed;
+  /*Ocupara toda a tela visivel - inclusive ao mexer na barra de rolagem*/
+  width: 100%;
+  /* background-color: #09090a; */
+
+}
+
+button {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  height: fit-content; /*A caixa estava ficando da altura do header*/
+  background-color: transparent;
+  color: #ffffff;
+
+  padding: 1.4rem 2.4rem;
+
+  border: 1px solid #8b5cf6;
+  border-radius: 0.8rem;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 125%;
+
+  transition: 0.3s;
+}
+
+#form-habits {
+  display: flex;
+  /*padding-top entrou para corrigir o position fixed do header que tem altura de 18.2rem*/
+  padding: 19rem 4.8rem 4.8rem;
+
+  /*O fit-content corrigiu o padding right do form que não estava funcionando - pois o form estava ocupando apenas 100vw ou seja apenas a visualização da tela desta forma - o form está ocupando toda a sua largura */
+  /*fit-content (encaixe o conteúdo a largura)*/
+  width: fit-content;
+}
+
+.habits {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  margin-top: 6rem;
+}
+
+.habit {
+  height: 6.4rem;
+  width: 4rem;
+
+  font-size: 3.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  flex-direction: row;
+  gap: 4.8rem;
+  margin-left: 3.2rem;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.day div {
+  margin-bottom: 0.8rem; /*Aumentar a distancia das datas*/
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+
+  text-align: center;
+
+  color: #a1a1aa;
+}
+
+input {
+  appearance: none; /*Necessário para retirar a aparencia do input*/
+  -webkit-appearance: none;
+
+  width: 6.4rem;
+  height: 6.4rem;
+
+  background: #18181b;
+
+  border: 2px solid #27272a;
+  border-radius: 0.8rem;
+}
+
+/*pseudo-selector*/
+input:checked {
+  background: #8b5cf6;
+  border: 2px solid #a78bfa;
+}
+
+@media (max-width: 570px) {
+  /* header {
+    padding: 4rem 5rem 3rem 5rem;
+  }
+
+  #form-habits {
+    padding: 0 0 6rem 5rem;
+  } */
+  /* Ou seja quando a largura chegar a menos do que 570px a parte textual do botão que está envolvida em um span (registrar meu dia) irá desaparecer */
+  /*Desta forma tornou a reponsividade do padding do header desnecessária*/
+  button {
+  padding: 1.2rem;
+  }
+
+  button span {
+    display: none;
+  }
+}

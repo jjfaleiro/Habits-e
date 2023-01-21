@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="./script.js" defer></script>
+
+    <title>Habits(e)</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logo da aplicação de Hábitos" />
+      <button>
+        <img src="./assets/plus.svg" alt="Sinal de adição" /> <span>Registrar meu dia</span>
+      </button>
+    </header>
+
+    <form action="" id="form-habits">
+      <div class="habits">
+        <div class="habit" data-name="run">🏃</div>
+        <div class="habit" data-name="water">🥤</div>
+        <div class="habit" data-name="food">🍎</div>
+        <div class="habit" data-name="journal">📰</div>
+        <div class="habit" data-name="takePills">💊</div>
+      </div>
+      <div class="days"></div>
+      <!-- <div class="days">
+        <div class="day">
+          <div>03/01</div>
+          <input type="checkbox" name="run" />
+          <input type="checkbox" name="water" />
+          <input type="checkbox" name="food" />
+          checked - posso colocar este atributo dentro da tag para ver sua aparencia quando estiver marcado
+        </div>
+        <div class="day">
+          <div>04/01</div>
+          <input type="checkbox" name="run" />
+          <input type="checkbox" name="water" />
+          <input type="checkbox" name="food" />
+        </div>
+        <div class="day">
+          <div>05/01</div>
+          <input type="checkbox" name="run" />
+          <input type="checkbox" name="water" />
+          <input type="checkbox" name="food" />
+        </div>
+      </div> -->
+    </form>
+    <!-- Biblioteca que será utilizada na aplicação -->
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+  </body>
+</html>
