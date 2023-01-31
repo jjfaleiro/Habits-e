@@ -9,11 +9,6 @@ button.addEventListener("click", add)
 //Evento de change - significa sempre que houver mudança neste caso no formulário
 form.addEventListener("change", save)
 
-nlwSetup.addDay("26/12")
-nlwSetup.addDay("27/12")
-nlwSetup.addDay("28/12")
-nlwSetup.addDay("29/12")
-nlwSetup.addDay("30/12")
 
 function add() {
   //Necessário que seja o dia de hoje
