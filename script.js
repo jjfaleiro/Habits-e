@@ -44,6 +44,8 @@ nlwSetup.setData(data)
 //E para inicializar/carregar todo a aplicação utilizamos .load (método támbem da biblioteca para isso) - Ele carregará os dados internos e renderizará o layout que foi criado pelo setData acima atráves do data
 nlwSetup.load()
 
+
+
 //NÃO PODE SER INSERIDO MANUALMENTE E SIM POR FUNÇÕES CLICAVEIS
 //Dados para construir a tabela de código - De acordo com a biblioteca estamos criando um objeto com propriedades que devem ter o mesmo nome do data-name (propriedade dos habit no HTML) no formato MM-DD (Mês-Dia) - Observação os dias estão sendo criados e de acordo com as datas inseridas nas propriedades do objeto elas ficam marcadas na aplicação
 // const data = {
@@ -59,8 +61,4 @@ nlwSetup.load()
 
 //Ele carregará os dados internos e renderizará o layout que foi criado pelo setData acima atráves do data
 // nlwSetup.load()
-nlwSetup.addDay("26/12")
-nlwSetup.addDay("27/12")
-nlwSetup.addDay("28/12")
-nlwSetup.addDay("29/12")
-nlwSetup.addDay("30/12")
+
