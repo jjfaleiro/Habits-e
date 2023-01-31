@@ -56,6 +56,12 @@ button {
   transition: 0.3s;
 }
 
+button:hover {
+  color:#8b5cf6;
+  border-color:#09090a;
+  scale: 1.1;
+}
+
 #form-habits {
   display: flex;
   /*padding-top entrou para corrigir o position fixed do header que tem altura de 18.2rem*/
