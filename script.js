@@ -59,6 +59,8 @@ nlwSetup.load()
 
 //Ele carregará os dados internos e renderizará o layout que foi criado pelo setData acima atráves do data
 // nlwSetup.load()
+nlwSetup.addDay("26/12")
+nlwSetup.addDay("27/12")
 nlwSetup.addDay("28/12")
 nlwSetup.addDay("29/12")
 nlwSetup.addDay("30/12")
